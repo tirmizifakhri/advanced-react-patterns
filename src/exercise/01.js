@@ -8,6 +8,7 @@ import {dequal} from 'dequal'
 
 import * as userClient from '../user-client'
 import {useAuth} from '../auth-context'
+// eslint-disable-next-line
 import {update} from 'lodash'
 
 const UserContext = React.createContext()
